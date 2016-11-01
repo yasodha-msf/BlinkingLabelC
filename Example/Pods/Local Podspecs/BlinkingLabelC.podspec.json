@@ -1,9 +1,9 @@
 {
   "name": "BlinkingLabelC",
   "version": "0.1.0",
-  "summary": "A short description of BlinkingLabelC.",
+  "summary": "demo using BlinkingLabelC.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BlinkingLabelC",
+  "homepage": "https://github.com/yasodha-msf/BlinkingLabelC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yasodha": "yasodha.r@inxsasia.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BlinkingLabelC.git",
+    "git": "https://github.com/yasodha-msf/BlinkingLabelC.git",
     "tag": "0.1.0"
   },
   "platforms": {

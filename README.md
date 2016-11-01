@@ -5,9 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/BlinkingLabelC.svg?style=flat)](http://cocoapods.org/pods/BlinkingLabelC)
 [![Platform](https://img.shields.io/cocoapods/p/BlinkingLabelC.svg?style=flat)](http://cocoapods.org/pods/BlinkingLabelC)
 
+##Overview
+Test overView to learn pods
+
+## Requirements
+* ARC
+* iOS8
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 
 ## Requirements
 
@@ -17,7 +25,7 @@ BlinkingLabelC is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BlinkingLabelC"
+pod "BlinkingLabelC"    
 ```
 
 ## Author

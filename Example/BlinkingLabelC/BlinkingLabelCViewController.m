@@ -7,8 +7,13 @@
 //
 
 #import "BlinkingLabelCViewController.h"
+#import "BlinkingLabelC.h"
+
 
 @interface BlinkingLabelCViewController ()
+{
+    BlinkingLabelC *lbl;
+}
 
 @end
 
@@ -18,6 +23,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    lbl = [[BlinkingLabelC alloc]init];
+    lbl.frame = CGRectMake(10, 10, 100, 20);
+    [self.view addSubview:lbl];
+}
+
+- (IBAction)btnClicked:(id)sender {
+    [lbl changeToGreen];
 }
 
 - (void)didReceiveMemoryWarning
